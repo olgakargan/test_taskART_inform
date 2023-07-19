@@ -10,7 +10,6 @@ public class CountElements {
         for (int element : list) {
             result.put(element, result.getOrDefault(element, 0) + 1);
         }
-
         return result;
     }
 
